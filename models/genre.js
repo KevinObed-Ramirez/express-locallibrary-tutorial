@@ -4,9 +4,9 @@ var Schema = mongoose.Schema;
 
 var GenreSchema = new Schema(
     {
-        name:{type:String, required: true, minlength: 3, maxlength: 100}
+        name: { type: String, required: true, minlength: 3, maxlength: 100 }
     }
-)
+);
 
 
 GenreSchema
@@ -19,4 +19,4 @@ GenreSchema
 
 
 //Export model
-module.exports = mongoose.model('genre', genreSchema);
+module.exports = mongoose.model('Genre', GenreSchema);

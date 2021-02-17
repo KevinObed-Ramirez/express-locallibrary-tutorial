@@ -6,11 +6,21 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "async": "^3.2.0",
+    "bootstrap": "^4.6.0",
+    "compression": "^1.7.4",
     "cookie-parser": "^1.4.5",
+    "db": "^3.3.1",
     "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
     "express": "~4.16.1",
+    "express-validator": "^6.9.2",
+    "helmet": "^4.4.1",
     "http-errors": "~1.6.3",
+    "install": "^0.13.0",
+    "luxon": "^1.25.0",
+    "mongoose": "^5.11.16",
     "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11"
+    "pug": "^3.0.0"
   }
 }
